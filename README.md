@@ -1,8 +1,3 @@
-## 🗒️ Answer
-
-### README.md
-
-```markdown
 # Birthday Card Creator App
 
 A simple and interactive React Native application that allows users to create custom birthday cards by uploading an image, adding a personalized message, and selecting a text color. Users can preview the card and make edits as needed.
