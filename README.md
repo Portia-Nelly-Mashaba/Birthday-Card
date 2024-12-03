@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
+## 🗒️ Answer
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### README.md
 
-## Get started
+```markdown
+# Birthday Card Creator App
 
-1. Install dependencies
+A simple and interactive React Native application that allows users to create custom birthday cards by uploading an image, adding a personalized message, and selecting a text color. Users can preview the card and make edits as needed.
 
+## Features
+- **Upload Images**: Select and display an image from the device's gallery.
+- **Personalized Messages**: Add a custom birthday message with adjustable text color.
+- **Preview Mode**: View the completed card before sharing or saving.
+- **Edit Mode**: Easily make changes to the card after previewing.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Portia-Nelly-Mashaba/Birthday-Card.git
+   cd birthday-card
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
+3. Run the application:
+   - On Android:
+     ```bash
+     npx expo start --android
+     ```
+   - On iOS:
+     ```bash
+     npx expo start --ios
+     ```
+   - On Web:
+     ```bash
+     npx expo start --web
+     ```
 
-2. Start the app
+## Dependencies
+- **React Native**: Framework for building cross-platform apps.
+- **Expo**: Tools and services for building and deploying the app.
+- **expo-image-picker**: For image selection from the device gallery.
 
-   ```bash
-    npx expo start
-   ```
+## Usage
+1. **Edit Mode**:
+   - Tap on "Upload Image" to select a photo from the gallery.
+   - Enter a birthday message in the text input field.
+   - Choose a text color from the color picker.
+   - Press "Display Card" to preview your card.
 
-In the output, you'll find options to open the app in a
+2. **Display Mode**:
+   - View the selected image with the message displayed at the top.
+   - Tap "Edit" to return to edit mode and make changes.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+## Folder Structure
+```
+app/
+├── (tabs)/
+│   └── index.tsx  # Main screen implementation
+└── assets/         # Images and other static assets
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contributing
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m "Add a feature"`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
