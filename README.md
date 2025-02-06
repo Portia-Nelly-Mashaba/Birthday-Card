@@ -1,65 +1,54 @@
-# Birthday Card Creator App
+# Birthday Card App
 
-A simple and interactive React Native application that allows users to create custom birthday cards by uploading an image, adding a personalized message, and selecting a text color. Users can preview the card and make edits as needed.
+This is a **Birthday Card Application** that allows users to create custom birthday cards with personalized text, images, and decorations.
 
 ## Features
-- **Upload Images**: Select and display an image from the device's gallery.
-- **Personalized Messages**: Add a custom birthday message with adjustable text color.
-- **Preview Mode**: View the completed card before sharing or saving.
-- **Edit Mode**: Easily make changes to the card after previewing.
+
+### Card Creation:
+1. **Custom Birthday Cards:**
+   - Users can design unique birthday cards.
+   - Add personal messages and images.
+   
+2. **Text Editing:**
+   - Add, edit, and format text on the card.
+   - Choose different fonts, colors, and styles.
+   
+3. **Decorations:**
+   - Enhance cards with stickers, borders, and other design elements.
+
+## Technology Stack
+- **Frontend:** React / React Native
+- **Styling:** CSS / Tailwind
+- **Storage:** Local Storage / Cloud Storage (Optional)
 
 ## Installation
+
+To run this project locally, follow these steps:
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Portia-Nelly-Mashaba/Birthday-Card.git
-   cd birthday-card
+   git clone https://github.com/your-username/birthday-card-app.git
    ```
-2. Install dependencies:
+2. Navigate to the project directory:
+   ```bash
+   cd birthday-card-app
+   ```
+3. Install dependencies:
    ```bash
    npm install
    ```
-3. Run the application:
-   - On Android:
-     ```bash
-     npx expo start --android
-     ```
-   - On iOS:
-     ```bash
-     npx expo start --ios
-     ```
-   - On Web:
-     ```bash
-     npx expo start --web
-     ```
+4. Start the application:
+   ```bash
+   npm start
+   ```
 
-## Dependencies
-- **React Native**: Framework for building cross-platform apps.
-- **Expo**: Tools and services for building and deploying the app.
-- **expo-image-picker**: For image selection from the device gallery.
+## Screenshots
 
-## Usage
-1. **Edit Mode**:
-   - Tap on "Upload Image" to select a photo from the gallery.
-   - Enter a birthday message in the text input field.
-   - Choose a text color from the color picker.
-   - Press "Display Card" to preview your card.
+![Card Creation](assets/images/pic1.PNG)
+![Text Editing](assets/images/pic2.PNG)
+![Card Display](assets/images/pic3.PNG)
 
-2. **Display Mode**:
-   - View the selected image with the message displayed at the top.
-   - Tap "Edit" to return to edit mode and make changes.
+## License
+This project is licensed under the MIT License.
 
-## Folder Structure
-```
-app/
-├── (tabs)/
-│   └── index.tsx  # Main screen implementation
-└── assets/         # Images and other static assets
-```
-
-## Contributing
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m "Add a feature"`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request.
 
